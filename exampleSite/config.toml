@@ -1,0 +1,24 @@
+theme = "lbl-theme"
+languageCode = "en-us"
+title = "Little Bit O' Lindy"
+baseurl = "/"
+themesdir = "../.."
+GoogleAnalytics = "UA-9713393-1"
+buildDrafts = false
+
+[permalinks]
+	page = "/:filename/"
+	about = "/:filename/"
+	post = "/:filename/"
+
+[params]
+  Facebook = "//www.facebook.com/lindy.greer"
+  GATracker = "UA-45939822-1"
+  Twitter = "//www.twitter.com/makeupartist524"
+  Description = "someting about lindy"
+  	[params.social]
+  		facebook = "lindy.greer"
+  		twitter = "makeupartist524"
+  		twitter_domain = "littlebitolindy.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+  		googleplus = "ArrestedDevOps"
+  		pinterest = "makeupartist524"
